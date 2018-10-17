@@ -10,10 +10,12 @@
    <link rel="stylesheet" href="css/bootstrap.css">
       <link href="css/main.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
+     
         
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         
-        
-        
+
+
         
         
         <style>	
@@ -49,11 +51,19 @@ background: url(images/fon4.jpg);
     
     </head>
     
-    <body>
+    
         
-	     
-	    
-	    
+        
+        
+        
+        
+        <body>
+            
+          
+
+
+            
+        
          <div class="header-bg">
     
    </div>
@@ -380,9 +390,37 @@ background: url(images/fon4.jpg);
     
              
         </div>
+        
+            <div class="scrollup">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+                <a href="#" id="up">наверх</a>
+            </div>
+        
+        
+        
+<!-- UItoTop plugin -->
+<script src="/js/jquery.ui.totop.js" type="text/javascript"></script>
+<!-- Starting the plugin -->
+<script type="text/javascript">
+$(document).ready(function() {
+/*
+var defaults = {
+containerID: 'toTop', // fading element id
+containerHoverID: 'toTopHover', // fading element hover id
+scrollSpeed: 1200,
+easingType: 'linear'
+};
+*/
+ 
+$().UItoTop({ easingType: 'easeOutQuart' });
+ 
+});
+</script>
     
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            
+            <script src="js/main.js"></script>
+                 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     </body>
